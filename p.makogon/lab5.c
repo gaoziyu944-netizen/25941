@@ -59,6 +59,7 @@ int main(int argc, char **argv) {
     }
     printf("========================\n");
 
+    printf("0 - завершает ввод\n");
     printf("введите строку, которую нужно напечатать\n");
     int idx;
     scanf("%d", &idx);

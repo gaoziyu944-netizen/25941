@@ -37,8 +37,7 @@ static int pushLine(Array *lines, long len_line, long offset) {
 
 static void dropStdinLine(void) {
     int c;
-    while ((c = getchar()) != '\n' && c != EOF)
-        ;
+    while ((c = getchar()) != '\n' && c != EOF);
 }
 
 static void dumpFile(int f) {
