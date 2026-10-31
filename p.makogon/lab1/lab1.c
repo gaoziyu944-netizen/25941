@@ -3,10 +3,6 @@
 #include <unistd.h>
 #include <sys/resource.h>
 
-// ssh p.makogon@ccfit.nsu.ru
-// 00V1Qcey,Oe
-// ssh 10.4.0.68
-
 
 extern char **environ;
 
